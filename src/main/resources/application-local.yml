@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: myFirstProject
+  data:
+    mongodb:
+#      uri: mongodb+srv://sp:smarth@cluster0.cr1gn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      host: localhost
+      port: 27017
+      database: journaldb
+      auto-index-creation: true
+server:
+  port: 8080
+  servlet:
+    context-path: /journalappj
